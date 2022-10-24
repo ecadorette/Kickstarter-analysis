@@ -1,2 +1,2 @@
 # KickstarterAnalysis
-Module1-performing kickstarter data to uncover trends
+Module1-performing analysis on kickstarter data to uncover trends
