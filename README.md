@@ -1,10 +1,10 @@
 # KickstarterAnalysis
 Module1-performing analysis on kickstarter data to uncover trends
 
-## Overview of Project:
+## Overview of Project
 The purpose of this analysis is to assist Louise with her research on campains funded through Kickstarter from 2009-2017, specifically for plays. Various factors have been evaluated including country of origin, pledged amounts, the initial goal, and the ultimate outcome of the campaigns.
 
-## Analysis and Challenges:
+## Analysis and Challenges
 ### A Broader View
 Investigation initially began with the categories and subcategories of the campaigns. Noting that campaign success changed drastically between countries was useful information but ultimately not enough to help Lousie. 
 
@@ -39,16 +39,17 @@ While there were no roadblocks during this analysis there were some opportunitie
 
 ## Results
 
-#### Two Conclusions from the Theater Outcomes by Launch Date:
+#### Two Conclusions from the "Theater Outcomes by Launch Date" Chart:
 1. Late spring/early summer does seem to be the best time to launch a campaign. 
 2. When reviewing the data by year instead of as a whole, the data becomes more skewed as the majority of campaigns captured in this dataset are from 2014-2016. If Louise is looking to launch in 2018 and only 10 campaigns ran the year prior, that seems like a potential risk and room for error in the overall analysis. 
 
-#### Outcome based on Goals
-This chart suggests Louise's best chance of success is to set her goal at $1000 or less. However, the Outcome based on Goals chart is very misleading. It suggests campaigns that ask for less than $1000 and between 35000 and 39999 have had the most success. If I was Louise the 35000 to 39999 bracket would intrigue me, and maybe I would get greedy and shoot for a larger campaign goal than less than 1000. It isn't until you look at the raw data that you see the 35000 to 39999 bracket only consists of 6 campaigns and the less than 1000 bracket includes 186. This chart would only be useful if the data it's based on was also included. 
+#### A Conclusion from the "Outcome based on Goals" Chart:
+This chart suggests Louise's best chance of success is to set her goal at 1000 or less. However, the Outcome based on Goals chart is very misleading. It suggests campaigns that ask for less than 1000 and between 35000 and 39999 have had the most success. If I was Louise, the 35000 to 39999 bracket would intrigue me, maybe I would get greedy and shoot for a larger campaign goal than less than 1000. It isn't until you look at the raw data that you see the 35000 to 39999 bracket only consists of 6 campaigns and the less than 1000 bracket includes 186. This chart would only be useful if the data it's based on was also included. 
 
-#### Limitations to the Dataset
+#### Limitations to the Dataset:
 There is a lack of marketing data provided. I would imagine a large factor of campagining is the medium(s) used to market the campaign (social media, newspapers, mail, etc.) and who actually pledged (millennials, boomers, urban dwellers, gym-junkies, etc.). Louise will want to be sure she is targeting the correct demographic and reaching out to those people in a way that will get their attention. 
 
 #### Other tables that could be useful...
 -Comparing the duration of the campaign to the success of the campain. For instance, maybe the May-June campaigns did so well because they had the longest run-times. 
+
 -Mapping out successful campaigns by location/country. Maybe there's an opportunity for plays in France that she hasn't considered.
