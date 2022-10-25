@@ -5,14 +5,12 @@ Module1-performing analysis on kickstarter data to uncover trends
 The purpose of this analysis is to assist Louise with her research on campains funded through Kickstarter from 2009-2017, specifically for plays. Various factors have been evaluated including country of origin, pledged amounts, the initial goal, and the ultimate outcome of the campaigns.
 
 ## Analysis and Challenges
-### A Broader View
-Investigation initially began with the categories and subcategories of the campaigns. Noting that campaign success changed drastically between countries was useful information but ultimately not enough to help Lousie. 
 
+### Analysis of Outcomes Based on Launch Date
 Louise is looking to raise money for a play, her main concerns are:
 1. What time of the year the most successful campaigns began
 2. How much capital she can ask backers for 
 
-### Digging Deeper
 At this stage in the game it was time for some data cleanup. The "deadline" and "launched_at" columns contained Unix timestamps. These timestamps were converted to human-readable dates by using the following formula.
 ```
 =(((J2/60)/60)/24)+DATE(1970,1,1)
@@ -21,7 +19,7 @@ Now the data can be charted to see when the sucessfull campaigns started. Review
 
 ![Outcomes Based on Launch Date](https://user-images.githubusercontent.com/114450503/197663146-2fd1c88d-ea00-4c39-bfdb-421c26ee3386.png)
 
-### Next Steps
+### Analysis of Outcomes Based on Goals
 The "when" has been answered. Now for "how much?". In order to find that out more anaysis was needed. It started with some statistical analysis between successful and failed campaigns to see if backers weren't willing to spend above a certain threshold. Some basic measures were used, including:
 - Mean
 - Mode
